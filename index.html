@@ -37,7 +37,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
+  <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo"><img src="assets/img/igor logo.png" alt="" class="img-fluid"></a>
@@ -46,11 +46,28 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">Sobre Mim</a></li>
-          <li><a class="nav-link active  scrollto" href="index.html#portfolio">Portfolio</a></li>
-          <li><a class="nav-link  scrollto" href="index.html#services">Materias</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contato">Contato</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre Mim</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link  scrollto" href="#services">Materias</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -68,7 +85,7 @@
 
         <ul class="list-unstyled list-social">
           <li><a href="https://www.facebook.com/igor.neves.96742277/"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="https://wa.me/qr/O4REQ5VSRS4XB1"><i class="bi bi-whatsapp"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/igor.neves.km/"><i class="bi bi-instagram"></i></a></li>
           <li><a href="https://github.com/igorneveskm"><i class="bi bi-github"></i></a></li>
         </ul>
@@ -96,7 +113,7 @@
 
               <p class="p-heading">EU SOU O IGOR  ESTUDANTE DA ETEC MARIA CRISTINA MEDEIROS  </p>
               <p class="separator">EU ESTOU ATUALMENTE ESUDANDO NA ETEC MCM EM RIBEIRÃO PIRES SP, CURSO ENSINO MEDIO COM TECNICO EM INFORMATICA PARA INTERNET ESTE ANO TENHO 6 MATERIAS DE INFORMATICA ESTOU APRENDENDO A PROGRAMAR E FAZER DESIGNERS ALÉM DE TRABALHAR MINHA CAPACIDADE SOCIAL.</p>
-              <P>PRETENDO SEGUIR MINHA CARREIRA COMO DENTISTA FAZENDO PROCEDIMENTOS ESTETICOS É EM HORAS LIVRES TRABALHAR COMO TECNICO DE INFORMATICA.</P> 
+              <P>PRETENDO SEGUIR MINHA CARREIRA COMO DENTISTA FAZENDO PROCEDIMENTOS ESTETICOS E EM HORAS LIVRES TRABALHAR COMO TECNICO DE INFORMATICA.</P> 
               
 
             </div>
@@ -107,7 +124,7 @@
     </div><!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
-    <div id="services" class="paddsection">
+  <div id="services" class="paddsection">
     <div class="container">
       <div class="section-title text-center">
         <h2>Materias</h2>
@@ -169,27 +186,27 @@
 
     </div>
 
-    </div><!-- End Portfolio Section -->
+  </div><!-- End Portfolio Section -->
 
-    <!-- ======= Counts ======= -->
-    <div class="counts container">
+  <!-- ======= Counts ======= -->
+  <div class="counts container">
 
     <div class="row">
 
       <div class="col-lg-3 col-md-6">
         <div class="count-box">
           <i class="bi bi-emoji-smile"></i>
-          <span data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-          <h1>20</h1>
-          <p>Clientes Satisfeitos</p>
+          <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Seguidores Github</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
         <div class="count-box">
           <i class="bi bi-journal-richtext"></i>
-          <span data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-          <h1>9</h1>
+          <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+            class="purecounter"></span>
           <p>Meses de experiência</p>
         </div>
       </div>
@@ -197,8 +214,8 @@
       <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
         <div class="count-box">
           <i class="bi bi-headset"></i>
-          <span data-purecounter-start="0" data-purecounter-end="152" data-purecounter-duration="1" class="purecounter"></span>
-          <h1>100</h1>
+          <span data-purecounter-start="0" data-purecounter-end="152" data-purecounter-duration="1"
+            class="purecounter"></span>
           <p>Comits Github</p>
         </div>
       </div>
@@ -206,18 +223,18 @@
       <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
         <div class="count-box">
           <i class="bi bi-award"></i>
-          <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"class="purecounter"></span>
-          <h1>17</h1>
+          <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
+            class="purecounter"></span>
           <p>Trabalhos concluídos</p>
         </div>
       </div>
 
     </div>
 
-    </div><!-- End Counts -->
+  </div><!-- End Counts -->
 
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
+  <!-- ======= Skills  ======= -->
+  <div class="skills container">
 
     <div class="section-title">
       <h2>Habilidades</h2>
@@ -286,257 +303,275 @@
   <div class="interests container">
 
     <div class="section-title">
-      <br><br>
       <h2>Competências socioemocionais</h2>
     </div>
 
     <div class="row">
-
       <div class="col-lg-3 col-md-4">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-store-line" style="color: #ff0000;"></i>
           <h3>Foco</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-bar-chart-box-line" style="color: #ff0000;"></i>
           <h3>Organização</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-calendar-todo-line" style="color: #ff0000;"></i>
           <h3>Responsabilidade</h3>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+      <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-paint-brush-line" style="color: #ee930a;"></i>
+          <h3>Entusiasmo</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-database-2-line" style="color: #ee930a;"></i>
+          <h3>Assertividade</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-gradienter-line" style="color: #6fe620;"></i>
+          <h3>Empatia</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-file-list-3-line" style="color: #6fe620;"></i>
           <h3>Respeito</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-price-tag-2-line" style="color: #6fe620;"></i>
           <h3>Confiança</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-anchor-line" style="color: #00a2ff;"></i>
+          <h3>Autoconfiança</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-disc-line" style="color: #ffee00;"></i>
           <h3>Curiosidade para Aprender</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-base-station-line" style="color: #ffee00;"></i>
           <h3>Imaginação Criativa</h3>
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="bi bi-book" style="color: #ffffff;"></i>
+          <i class="ri-fingerprint-line" style="color: #ffee00;"></i>
           <h3>Interesse Artístico</h3>
         </div>
       </div>
-
     </div>
 
   </div><!-- End Interests -->
 
-    </div><!-- End Services Section -->
 
-   <!-- ======= Portfolio Section ======= -->
-    <div id="portfolio" class="paddsection">
+  </div><!-- End Services Section -->
 
-      <div class="container">
+      <!-- ======= Portfolio Section ======= -->
+      <div id="portfolio" class="paddsection">
+
+        <div class="container">
           <div class="section-title text-center">
             <h2>MEU PORTIFOLIO</h2>
           </div>
-      </div>
-  
-      <div class="container">
-  
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">TUDO</li>
-              <li data-filter=".filter-app">TI</li>
-              <li data-filter=".filter-card">LPL</li>
-              <li data-filter=".filter-web">ARTE</li>
-            </ul>
-          </div>
         </div>
   
-        <div class="row portfolio-container">
+        <div class="container">
   
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/foto curriculo.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Pedrinho</h4>
-              <p>Programação em html</p>
-              <a href="assets/img/foto curriculo.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/naruto.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Desenho </h4>
-              <p>A mão</p>
-              <a href="assets/img/naruto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Desenho a mão"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/site pedrinho foto.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Pedinho</h4>
-              <p>Interface na web</p>
-              <a href="assets/img/site pedrinho foto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/fotonovela.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>capacidade socioemocional</h4>
-              <p>Fotonovela</p>
-              <a href="assets/img/fotonovela.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="fotonovela"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>  
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/lobo.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Desenho</h4>
-              <p>digital</p>
-              <a href="assets/img/lobo.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="arte digital"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>  
-  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/layout foto.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Pedrinho</h4>
-              <p>layout</p>
-              <a href="assets/img/layout foto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </div>
-   
-    <!-- ======= Contact Section ======= -->
-    <div id="contato" class="contato">
-      <div class="container">
-        <div class="contact-block1">
           <div class="row">
-    
-            <div class="col-lg-6">
-              <div class="contact-contact">
-    
-                <h2 class="mb-30">ENTRE EM CONTATO</h2>
-    
-                <ul class="contact-details">
-                  <li><span>RUA UMUARAMA</span></li>
-                  <li><span>RIBEIRÃO PIRES , SP</span></li>
-                  <li><span>+55 11 97325 6631</span></li>
-                  <li><span>IGOR.SILVA754@ETEC.SP.GOV.BR.com</span></li>
-                </ul>
-    
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">TUDO</li>
+                <li data-filter=".filter-app">TI</li>
+                <li data-filter=".filter-card">LPL</li>
+                <li data-filter=".filter-web">ARTE</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/foto curriculo.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pedrinho</h4>
+                <p>Programação em html</p>
+                <a href="assets/img/foto curriculo.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-    
-            <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row gy-3">
-    
-                  <div class="col-lg-6">
-                    <div class="form-group contact-block1">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="SEU NOME" required>
-                    </div>
-                  </div>
-    
-                  <div class="col-lg-6">
-                    <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="SEU EMAIL" required>
-                    </div>
-                  </div>
-    
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="ASSUNTO" required>
-                    </div>
-                  </div>
-    
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="MENSAGEM/CRITICA CONSTRUTIVA" required></textarea>
-                    </div>
-                  </div>
-    
-                  <div class="col-lg-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-    
-                  <div class="mt-0">
-                    <input type="submit" class="btn btn-defeault btn-send" value="ENVIAR MENSAGEM">
-                  </div>
   
-                </div>
-              </form>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/naruto.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Desenho </h4>
+                <p>A mão</p>
+                <a href="assets/img/naruto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Desenho a mão"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
             </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/site pedrinho foto.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pedinho</h4>
+                <p>Interface na web</p>
+                <a href="assets/img/site pedrinho foto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/fotonovela.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>capacidade socioemocional</h4>
+                <p>Fotonovela</p>
+                <a href="assets/img/fotonovela.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="fotonovela"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/CALCULADORA.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Calculadora</h4>
+                <p>java</p>
+                <a href="assets/img/CALCULADORA.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Calculadora em Java script"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/layout foto.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pedrinho</h4>
+                <p>layout</p>
+                <a href="assets/img/layout foto.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Pedrinho"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
           </div>
+  
+        </div>
+
+<!-- ======= Contact Section ======= -->
+<div id="contact" class="paddsection">
+<div class="container">
+  <div class="contact-block1">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="contact-contact">
+
+          <h2 class="mb-30">ENTRE EM CONTATO</h2>
+
+          <ul class="contact-details">
+            <li><span>RUA UMUARAMA</span></li>
+            <li><span>RIBEIRÃO PIRES , SP</span></li>
+            <li><span>+55 11 97325 6631</span></li>
+            <li><span>IGOR.SILVA754@ETEC.SP.GOV.BR.com</span></li>
+          </ul>
+
         </div>
       </div>
-    </div><!-- End Contact Section -->
-  
-  </main><!-- End #main -->
+
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row gy-3">
+
+            <div class="col-lg-6">
+              <div class="form-group contact-block1">
+                <input type="text" name="name" class="form-control" id="name" placeholder="SEU NOME" required>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="SEU EMAIL" required>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="ASSUNTO" required>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="form-group">
+                <textarea class="form-control" name="message" placeholder="MENSAGEM/CRITICA CONSTRUTIVA" required></textarea>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+
+            <div class="mt-0">
+              <input type="submit" class="btn btn-defeault btn-send" value="ENVIAR MENSAGEM">
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+    
 
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
-      <div class="container">
-        <div class="socials-media text-center">
-  
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="#"><i class="bi bi-github"></i></a></li>
-          </ul>
-  
-        </div>
-  
-        <p>&copy; Copyrights Folio. All rights reserved.</p>
-  
-        <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-  
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-github"></i></a></li>
+        </ul>
+
       </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+
+    </div>
   </div><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
